@@ -1,5 +1,11 @@
 # Fav_music_list
 This Git repository houses the source code and assets for my personal website designed for enjoying my favorite music. This project is a labor of love dedicated to creating a seamless and enjoyable music listening experience.
+#(screenshot)
+
+https://github.com/mandalsourajit/Fav_music_list/assets/140224488/899c389d-8b9b-46b3-834c-952fd40aef53
+
+![Muscian(Your Favorite) - Google Chrome 15-09-2023 20_06_30](https://github.com/mandalsourajit/Fav_music_list/assets/140224488/e8549ba7-6484-4d8c-b4e9-0cb772fe0ec0)
+
 # Musician Website
 
 A simple musician website showcasing your favorite songs.
