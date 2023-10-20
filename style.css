@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&family=Ubuntu:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(63, 63, 62);
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+    align-items: center;
+    height: 40px;
+    font-family: 'Merriweather', serif;
+}
+
+nav ul .brand {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+nav ul .brand img {
+    width: 30px;
+    margin-right: 5px;
+    margin-top: 0px;
+    border-radius: 30px;
+}
+
+nav ul li {
+    padding: 0px 8px;
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+    margin: 10px auto;
+    min-height: 70vh;
+    background-color: rgb(103, 125, 118);
+    font-family: 'Merriweather', serif;
+    color: white;
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+    background: url('bg7.webp') no-repeat center center / cover;
+
+}
+
+.songItemContainer {
+    margin-top: 30px;
+}
+
+.songItemContainer .songName {
+    margin-left: 80px;
+}
+
+.songItem {
+    height: 35px;
+    width: 65%;
+    background-color: rgb(142, 166, 176);
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.songItem img {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.songItem .title {
+    font-size: 14px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .5);
+}
+
+.songInfo {
+    /* position: absolute; */
+    left: 13vw;
+    top: 4vw;
+    margin-top: 6px;
+}
+
+.songInfo img {
+    height: 19px;
+    width: 40px;
+    transition: opacity 0.3s ease-in;
+}
+
+.gif {
+    opacity: 0;
+}
+
+.songItem .songPlay {}
+
+.songItem .songListPlay .timestamp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.songItem .songListPlay i {
+    margin: 0px 4px;
+    padding-top: 3.5px;
+    cursor: pointer;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#myProgressBar {
+    width: 75vw;
+}
+
+.icons {
+    margin-top: 8px;
+}
+
+.icons i {
+    cursor: pointer;
+    margin: 0px 4px;
+}
+
+@keyframes rotateImage {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate {
+    animation: rotateImage 4s infinite linear;
+}
